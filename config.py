@@ -7,7 +7,7 @@ import json
 
 
 # 📄 config.py
-VERSAO_ATUAL = "1.0.0"  # Sempre atualize esta versão quando fizer novo release
+VERSAO_ATUAL = "1.0.1"  # Sempre atualize esta versão quando fizer novo release
 REPO_URL = "https://api.github.com/repos/Ruitervanderley/pomodoro-timer-app"
 CHAVE_PUBLICA_PATH = "assets/public_key.pem"
 
