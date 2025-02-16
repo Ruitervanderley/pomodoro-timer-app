@@ -23,4 +23,16 @@ jobs:
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          - name: Build Executable
+  run: |
+    pip install pyinstaller
+    pyinstaller --onefile --name PomodoroTimer main.py
+    cp -r assets dist/
+    cd dist
+    zip release.zip PomodoroTimer.exe assets/*
+  
+- name: Upload Release Asset
+  uses: softprops/action-gh-release@v1
+  with:
+    files: dist/release.zip
 "@ | Out-File -FilePath .github\workflows\release.yml -Encoding utf8
