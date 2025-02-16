@@ -1,0 +1,18 @@
+código/
+│
+├── assets/
+│   ├── logo.png
+│   ├── start_sound.wav
+│   ├── alert_sound.wav
+│   └── end_sound.wav
+│
+├── main.py
+├── config.py
+├── cronometro_app.py
+├── login.py
+├── configuracoes.py
+├── menu_principal.py
+├── cronometro.py
+├── usuarios.py
+├── serial_utils.py
+├── verify_license.py

@@ -1,0 +1,22 @@
+{
+    "bg_color": "#FFFFFF",
+    "fg_color": "#000000",
+    "button_color": "#1A532D",
+    "hover_color": "#654321",
+    "bg_image_path": "",
+    "logo_path": "/mnt/data/logo.png",
+    "sounds": {
+        "start": null,
+        "alert": null,
+        "end": null
+    },
+    "icons": {
+        "tribune": null,
+        "free_speech": null,
+        "final_considerations": null,
+        "manual_time": null,
+        "config": null,
+        "rest": null,
+        "exit": null
+    }
+}

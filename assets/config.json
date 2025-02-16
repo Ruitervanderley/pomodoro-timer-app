@@ -1,0 +1,20 @@
+{
+    "bg_color": "#FFFFFF",
+    "fg_color": "#000000",
+    "bg_image_path": "C:/Users/RuiterDELL/OneDrive/\u00c1rea de Trabalho/Software Camara/Software/banner.png",
+    "logo_path": "logo.png",
+    "sounds": {
+        "start": null,
+        "alert": null,
+        "end": null
+    },
+    "icons": {
+        "tribune": null,
+        "free_speech": null,
+        "final_considerations": null,
+        "manual_time": null,
+        "config": null,
+        "rest": null,
+        "exit": null
+    }
+}
